@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F80AF361C07256A00A3D3E1 /* CameraFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F80AF361C07256A00A3D3E1 /* CameraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F80AF391C07256A00A3D3E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F80AF3B1C07256A00A3D3E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F80AF3E1C07256A00A3D3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		3F80AF371C07256A00A3D3E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F80AF361C07256A00A3D3E1 /* CameraFun.app */,
+				3F80AF361C07256A00A3D3E1 /* CameraApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F80AF351C07256A00A3D3E1 /* CameraFun */ = {
+		3F80AF351C07256A00A3D3E1 /* CameraApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F80AF4B1C07256A00A3D3E1 /* Build configuration list for PBXNativeTarget "CameraFun" */;
+			buildConfigurationList = 3F80AF4B1C07256A00A3D3E1 /* Build configuration list for PBXNativeTarget "CameraApp" */;
 			buildPhases = (
 				3F80AF321C07256A00A3D3E1 /* Sources */,
 				3F80AF331C07256A00A3D3E1 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = CameraFun;
+			name = CameraApp;
 			productName = CameraFun;
-			productReference = 3F80AF361C07256A00A3D3E1 /* CameraFun.app */;
+			productReference = 3F80AF361C07256A00A3D3E1 /* CameraApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,10 +99,11 @@
 				TargetAttributes = {
 					3F80AF351C07256A00A3D3E1 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = SY6HP52G3Y;
 					};
 				};
 			};
-			buildConfigurationList = 3F80AF311C07256A00A3D3E1 /* Build configuration list for PBXProject "CameraFun" */;
+			buildConfigurationList = 3F80AF311C07256A00A3D3E1 /* Build configuration list for PBXProject "CameraApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -115,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F80AF351C07256A00A3D3E1 /* CameraFun */,
+				3F80AF351C07256A00A3D3E1 /* CameraApp */,
 			);
 		};
 /* End PBXProject section */
@@ -251,10 +252,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CameraFun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NoisQueiroz.CameraFun;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CameraApp;
 			};
 			name = Debug;
 		};
@@ -262,17 +265,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CameraFun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NoisQueiroz.CameraFun;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CameraApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F80AF311C07256A00A3D3E1 /* Build configuration list for PBXProject "CameraFun" */ = {
+		3F80AF311C07256A00A3D3E1 /* Build configuration list for PBXProject "CameraApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F80AF491C07256A00A3D3E1 /* Debug */,
@@ -281,13 +286,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F80AF4B1C07256A00A3D3E1 /* Build configuration list for PBXNativeTarget "CameraFun" */ = {
+		3F80AF4B1C07256A00A3D3E1 /* Build configuration list for PBXNativeTarget "CameraApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F80AF4C1C07256A00A3D3E1 /* Debug */,
 				3F80AF4D1C07256A00A3D3E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
